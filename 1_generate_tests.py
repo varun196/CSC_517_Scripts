@@ -1,4 +1,5 @@
 '''
+Ensure that you set the `orig_test_file` to point to the tests. Do not include imports in `orig_test_file` 
 Ensure that the directory provided as argument contains files. Move files from sub directory to parent directory if required. Use:
 
 find /src/dir -type f -exec mv --backup=numbered -t /dst/dir {} +
@@ -9,9 +10,7 @@ Move 2_generate_results.py to temp folder and run to get results in result folde
 
 Copying the 2_generate_results.py and executing can be automated too.
 
-Please also ensure that you change the orig_test_file name.
 TODO: fetch test file name from cmdline
-
 '''
 
 import os
